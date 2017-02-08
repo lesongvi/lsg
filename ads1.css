@@ -1,0 +1,64 @@
+/* Ads by ads.lesongvi.ga */
+        .slide-up-boxes a {
+        display: block;
+        height: 130px;
+        margin: 0 0 20px 0;
+        background: rgba(215, 215, 215, 0.5);
+        border: 1px solid #ccc;
+        height: 65px;
+        overflow: hidden;
+        }
+         
+        .slide-up-boxes h5 {
+        color: #333;
+        text-align: center;
+         height: 65px;
+        font: italic 18px/65px Georgia, Serif;    /* Vertically center text by making line height equal to height */
+         opacity: 1;
+         -webkit-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+         }
+         
+        .slide-up-boxes a:hover h5 {
+        margin-top: -65px;
+        opacity: 0;
+        }
+         
+        .slide-up-boxes div {
+        position: relative;
+        color: white;
+        font: 12px/15px Georgia, Serif;
+         height: 45px;
+        padding: 10px;
+        opacity: 0;
+        -webkit-transform: rotate(6deg);
+        -webkit-transition: all 0.4s linear;
+        -moz-transform: rotate(6deg);
+        -moz-transition: all 0.4s linear;
+        -o-transform: rotate(6deg);
+        -o-transition: all 0.4s linear;
+        }
+         .slide-up-boxes a:hover div {
+        opacity: 1;
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -o-transform: rotate(0);
+        }
+         .slide-up-boxes a:nth-child(1) div { background: #c73b1b url(http://i.imgur.com/W2LleX7.jpg) 17px 17px no-repeat; padding-left: 120px; }
+         .slide-up-boxes a:nth-child(2) div { background: #367db2 url(http://i.imgur.com/W2LleX7.jpg) 21px 10px no-repeat; padding-left: 90px; }
+         .slide-up-boxes a:nth-child(3) div { background: #393838 url(http://i.imgur.com/W2LleX7.jpg) 14px 16px no-repeat; padding-left: 133px; }
+        .slide-up-boxes a:nth-child(4) div { background: #B0C920 url(http://i.imgur.com/W2LleX7.jpg) 17px 17px no-repeat; padding-left: 120px; }
+       /*
+         CSS-Tricks Example
+         by Chris Coyier
+         http://ads.lesongvi.ga
+        */
+        * { margin: 0; padding: 0; }
+        body { font: 14px Georgia, serif; }
+        article, aside, figure, footer, header, hgroup,
+        menu, nav, section { display: block; }
+        #page-wrap { width: 370px; margin: 60px auto; }
+        h1 { font: 32px Helvetica, Arial, Sans-Serif; margin: 0 0 20px 0; }
+        p { margin: 0 0 20px 0; }
+        a { text-decoration: none; }
